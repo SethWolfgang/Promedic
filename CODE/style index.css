@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box  ;
+    margin: 0%;
+    padding: 0%;
+}
+
+.NAVEGACION-FIJA {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #ffffff;
+}
+                                            /*BODY Y HTML*/
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: Gillsans,sans-serif;
+}
+
+/*lupa y navegacion*/
+
+a {
+color: rgba(0, 0, 0, 0.692);
+text-decoration: dashed;
+}
+
+ul {
+list-style: none;
+}
+
+.container {
+width: 100%;
+margin: auto;
+}   
+
+/* NEVEGACION */
+
+.nav-menu {
+font-size: 20px;
+font-family: Gillsans,sans-serif;
+}
+
+.nav-main {
+font-size: 17px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+padding: 42px 0;
+}
+
+.logo-medico {
+width: 15.5%;
+height: 80px;
+margin-left: -50px;
+margin-right: 5px;
+}
+
+
+                                               /*NAVEGACION CENTRAL*/
+.nav-main ul {
+display: flex;
+}
+
+.nav-main ul li {
+padding: 10px;
+}
+.nav-main ul li a {
+    padding: -1px;
+    margin-right: 17px;
+}
+.nav-main ul li a:hover {
+border-bottom: 3.5px solid #000000;
+}
+
+.nav-main ul.nav-menu {
+flex: 1;
+margin-left: -20px;
+margin-right: 20px;
+font-size: 18px;
+}
+                                                  /*SHOWCASE*/
+.showcase {
+width: 96.7%;
+height: 550px;
+margin: auto;
+background: url(https://topsmexicosocialmenteresponsables.com/wp-content/uploads/2021/04/francia-skin.jpg) no-repeat center center/cover;
+padding-bottom: 70px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+color: #ffffffee;
+}
+
+.btn {
+cursor: pointer;
+display:inline-block;
+border: 0;
+font-weight: bold;
+padding: 10px 20px;
+text-shadow: #7a7979;
+color: #ffffffe0;
+font-size: 15px;
+border: 1px solid rgba(255, 255, 255, 0.466);
+}
+
+                                             /*CARTAS/PRODUCTO*/
+
+.card1:hover {
+    box-shadow: 0 12px 16px rgba(5, 5, 5, 0.13);
+    transition: 0.25s;
+    transform: translateY(-15px);
+}
+.card2:hover {
+    box-shadow: 0 12px 16px rgba(5, 5, 5, 0.13);
+    transition: 0.25s;
+    transform: translateY(-15px);
+}
+.card3:hover {
+    box-shadow: 0 12px 16px rgba(5, 5, 5, 0.13);
+    transition: 0.25s;
+    transform: translateY(-15px);
+}
+.card4:hover {
+    box-shadow: 0 12px 16px rgba(5, 5, 5, 0.13);
+    transition: 0.25s;
+    transform: translateY(-15px);
+}
+
+.cartas {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 25px;
+margin: 25px;
+}
+
+.cartas img {
+width: 100%;
+height: 500px;
+}
+
+.cartas {
+font-size: 17px;
+font-family: Helvetica;
+color: #000000;
+background-color: #96969617;
+text-align: center;
+}
+
+.cartas {
+padding: 10px 10px;
+color: #00000088;
+font-weight: 100;
+
+}
+
+.cartas a:hover {
+transform: translateZ(20px);
+box-shadow: 0 12px 16px rgba(202, 146, 146, 0.555);
+transition: 0.25s;
+
+}
+
+.addtocart {
+    margin-bottom:  10px;
+    padding-bottom: 50px;
+}
+
+
+                                    /*Card-banner-One*/
+.BANNERUNO {
+    margin-top: -120px;
+    margin-bottom: 10px;
+}
+
+.texto-bannerONE {
+    color: #000000;
+    padding: 10px 0 0 70.3%;
+    height: right;
+    margin-top: -1250px;
+    margin-right: 70px;
+    margin-left: 100px;
+    margin-bottom: 830px;
+}                                  
+.Card-banner-One {
+width: 70%;
+height: 1600px;
+padding-left: 0%;
+margin: left;
+background: url(./imagenes/cliniquebanner.webp);
+margin-bottom: 49px;
+}
+
+.Card-banner-One .contenido{
+width: 70%;
+padding: 90px 0 0 30px;
+}
+
+
+/*todo para el hogar*/
+
+.DISCOVER {
+    text-align: center;
+    color: #000000a3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+.make-up{
+    text-align: center;
+    color: #000000c0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    margin-bottom: -100px ;
+}
+
+/*VIDEO MUESTRA NUMERO 1 MAYBELLINE NYC*/
+
+.text-video-banner {
+    margin-top: 150px;
+    margin-left: 900px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.video-may {
+    border: 10px;
+    margin-top: -420px;
+    margin-left: 170px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    height: 400px;
+}
+/* Banner2*/
+
+.texto-bannerTWO {
+    float: right;
+    margin-top: -105px;
+    margin-right: 70px;
+    margin-bottom: -90px;
+
+}
+
+.info-banner2 {
+    margin-top: -100px;
+    margin-left: 170.5px;
+    margin-right: 90px ;
+    margin-bottom: 25px ;
+    padding-top: -170px auto;
+}
+
+.Card-banner-Two {
+    width: 25%;
+    height: 550px;
+    background: url(./imagenes/maybeeyeliner.jpg) no-repeat;
+    float: right;
+    margin-top: -70px;
+    margin-right: 80.5px;
+    margin-left: auto;
+    margin-bottom: 49px;
+    padding: center;
+    }
+    .Card-banner-One .contenido{
+    width: 40%;
+    color: #9f9f9fcd;
+}
+
+                                        /*SOCIAL*/
+
+.social {
+margin: 50px;
+}
+.social p {
+text-align: center;
+font-size: 30px;
+margin-bottom: 20px;
+color: #000000b0;
+}
+.links {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.links a {
+margin: 0 30px;
+
+}
+.links a i {
+font-size: 3rem;
+} 
+.promedic {
+color: #000000;
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+text-align: center;    
+}
+
+/*FOOTER LINKS*/
+
+.footer-links {
+    background-color: rgba(144, 77, 77, 0.465);
+    font-size: 12px;
+    padding: 35px 0;
+    color: white;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: auto;
+    justify-content: center;
+    color: #392e2eae;
+    padding: 15px 0 0 11.3%;
+}
+
+.footer-container ul li{
+    line-height: 1.8;
+}
+
