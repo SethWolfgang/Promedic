@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box  ;
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
@@ -257,7 +257,7 @@ padding: 90px 0 0 30px;
 .Card-banner-Two {
     width: 25%;
     height: 550px;
-    background: url(./imagenes/maybeeyeliner.jpg) no-repeat;
+    background: url(/imagenes/maybeeyeliner.jpg) no-repeat;
     float: right;
     margin-top: -70px;
     margin-right: 80.5px;
